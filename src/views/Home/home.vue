@@ -457,15 +457,30 @@
           </van-tab>
           <van-tab title="连载">
             <div>
-               <img class="img-xiaodao1" src="../../assets/images/小岛1.png" />
-               <div class="home-text1">
-                 <img class="special-icon" src="../../assets/images/全部分类.png"/>
-                 <img class="special-icon1" src="../../assets/images/对话小说.png"/>
-                 <img class="special-icon1" src="../../assets/images/简书FM.png"/>
-                 <img class="special-icon1" src="../../assets/images/开通连载.png"/>
-                 <img class="special-icon1" src="../../assets/images/连载书评.png"/>
-               </div>
-               <img class="line3" src="../../assets/images/分隔线.png" />
+              <img class="img-xiaodao1" src="../../assets/images/小岛1.png" />
+              <div class="home-text1">
+                <img
+                  class="special-icon"
+                  src="../../assets/images/全部分类.png"
+                />
+                <img
+                  class="special-icon1"
+                  src="../../assets/images/对话小说.png"
+                />
+                <img
+                  class="special-icon1"
+                  src="../../assets/images/简书FM.png"
+                />
+                <img
+                  class="special-icon1"
+                  src="../../assets/images/开通连载.png"
+                />
+                <img
+                  class="special-icon1"
+                  src="../../assets/images/连载书评.png"
+                />
+              </div>
+              <img class="line3" src="../../assets/images/分隔线.png" />
               <div class="special">
                 <img
                   class="sort"
@@ -473,40 +488,56 @@
                 />
                 <p class="special-word">我关注的连载</p>
                 <van-icon class="jump" name="arrow" />
-               </div>
-                <img class="line4" src="../../assets/images/分隔线.png" />
-                 <div class="home-text1">
+              </div>
+              <img class="line4" src="../../assets/images/分隔线.png" />
+              <div class="home-text1">
                 <img class="Serial-pic" src="../../assets/images/夜深.png" />
-                <img class="Serial-pic1" src="../../assets/images/许你辰光.png" />
-                <img class="Serial-pic1" src="../../assets/images/道德经.png" />
               </div>
               <div class="home-text1">
                 <p class="Serial-name">夜深忽梦少年事</p>
-                <p class="Serial-name1">原创青春小说《许你辰光》</p>
-                <p class="Serial-name1">我读《道德经》</p>
               </div>
               <div class="home-text1">
-                <p class="Serial-name1">简书推荐专题</p>
-                <p class="Serial-name1">简书推荐专题</p>
-                <p class="Serial-name1">件数推荐专题</p>
+                <div class=" home-text1 layout1">
+                  <van-image
+                    class="serial-img"
+                    round
+                    src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
+                  />
+                  <p class="Serial-name2">默无文</p>
+                  <img
+                    class="eye"
+                    src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E7%9C%BC%E7%9D%9B%20.png"
+                  />
+                  <p class="views">1.5万</p>
+                </div>
+                <img class="book" src="../../assets/images/许你.png" />
+                <img class="book" src="../../assets/images/道德经.png" />
+              </div>
+              <div class="home-text1">
+                <img class="book1" src="../../assets/images/论语.png" />
+                <img class="book2" src="../../assets/images/TW.png" />
+                <img class="book2" src="../../assets/images/Odin.png" />
+              </div>
+              <div class="home-text1">
+                <img class="book1" src="../../assets/images/论语.png" />
+                <img class="book2" src="../../assets/images/TW.png" />
+                <img class="book2" src="../../assets/images/Odin.png" />
+              </div>
+              <div class="home-text1">
+                <img class="book1" src="../../assets/images/论语.png" />
+                <img class="book2" src="../../assets/images/TW.png" />
+                <img class="book2" src="../../assets/images/Odin.png" />
+              </div>
+              <div class="home-text1">
+                <img class="book1" src="../../assets/images/论语.png" />
+                <img class="book2" src="../../assets/images/TW.png" />
+                <img class="book2" src="../../assets/images/Odin.png" />
               </div>
             </div>
           </van-tab>
         </van-tabs>
       </div>
     </div>
-    <van-tabbar
-      class="bar-bottom"
-      v-model="active"
-      active-color="#f45768"
-      inactive-color="#000"
-    >
-      <van-tabbar-item icon="home-o">首页</van-tabbar-item>
-      <van-tabbar-item icon="search">关注</van-tabbar-item>
-      <van-tabbar-item icon="friends-o">简书钻</van-tabbar-item>
-      <van-tabbar-item icon="setting-o">消息</van-tabbar-item>
-      <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
-    </van-tabbar>
   </div>
 </template>
 
@@ -679,7 +710,7 @@ export default {
 .img-xiaodao1 {
   width: 328px;
   height: 120px;
-  margin-left:-10px;
+  margin-left: -10px;
 }
 .forum-image {
   margin-left: 5px;
@@ -846,11 +877,13 @@ export default {
 .special-name {
   font-size: 14px;
   margin-top: 5px;
+  font-weight: bold;
 }
 .special-name1 {
   font-size: 14px;
   margin-top: 5px;
   margin-left: 81px;
+  font-weight: bold;
 }
 .special-name3 {
   font-size: 10px;
@@ -866,32 +899,95 @@ export default {
 .special-name5 {
   font-size: 14px;
   margin-top: 5px;
+  font-weight: bold;
 }
 .special-name6 {
   font-size: 14px;
   margin-top: 5px;
   margin-left: 35px;
+  font-weight: bold;
 }
 .special-name7 {
   font-size: 14px;
   margin-top: 5px;
   margin-left: 53px;
+  font-weight: bold;
 }
 .special-name8 {
   font-size: 14px;
   margin-top: 5px;
   margin-left: 68px;
+  font-weight: bold;
 }
-.Serial-pic{
+.Serial-pic {
   width: 100px;
   height: 130px;
 }
-.Serial-pic1{
-  width: 100px;
+.Serial-pic1 {
+  width: 110px;
   height: 130px;
   margin-left: 10px;
 }
-.Serial-name{
-  font-size: 14px;;
+.Serial-name {
+  width: 330px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1px;
+}
+.Serial-name1 {
+  width: 200px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: -25px;
+}
+.Serial-name2 {
+  width: 300px;
+  font-size: 5px;
+  text-align: left;
+  color: #a0a0a0;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.Serial-name3 {
+  width: 300px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+.serial-img {
+  width: 15px;
+  height: 15px;
+}
+.eye {
+  width: 15px;
+  height: 10px;
+  margin-left: -255px;
+  margin-top: 3px;
+}
+.views {
+  font-size: 5px;
+  color: #8a8a8a;
+  margin-top: 0px;
+}
+.layout1 {
+  width: 330px;
+}
+.book {
+  width: 110px;
+  height: 185px;
+  margin-left: 20px;
+  margin-top: -163px;
+}
+.book1 {
+  width: 110px;
+  height: 185px;
+  margin-left: 0px;
+}
+.book2 {
+  width: 110px;
+  height: 185px;
+  margin-left: 18px;
 }
 </style>
