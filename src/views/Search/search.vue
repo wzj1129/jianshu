@@ -7,7 +7,7 @@
         shape="round"
         placeholder="搜索文章、专题、用户、文集、连载"
       />
-      <p class="cancel">取消</p>
+      <p class="cancel" @click="back">取消</p>
     </div>
     <div class="layout">
       <img
@@ -81,7 +81,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+   methods: {
+    back() {
+      this.$router.push("/home");
+    }
+  }
+};
 </script>
 
 <style>

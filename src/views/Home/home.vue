@@ -4,6 +4,7 @@
     <div class="header">
       <van-search
         v-model="value"
+        @click="search"
         shape="round"
         placeholder="搜索感兴趣的内容"
       />
@@ -246,7 +247,7 @@
                   >
                     我的
                   </p>
-                  <p class="tab-3">更多小岛></p>
+                  <p class="tab-3" @click="more">更多小岛></p>
                 </div>
                 <div v-if="isShow">
                   <div class="bigd">
@@ -548,7 +549,14 @@ export default {
       isShow: true
     };
   },
-  methods: {}
+  methods: {
+      search() {
+      this.$router.push("/search");
+    },
+      more() {
+      this.$router.push("/more");
+    }
+  }
 };
 </script>
 

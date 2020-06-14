@@ -3,6 +3,7 @@
     <div class="layout">
       <van-icon
         class="icon-add"
+        @click="jump"
         name="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E6%B7%BB%E5%8A%A0.png"
         dot
       />
@@ -18,12 +19,28 @@
 
     <div>
       <img class="icon-follow1" src="../../assets/images/关注1.png" />
-      <van-button color="#f45768" plain hairline round class="button1"
+      <van-button
+        color="#f45768"
+        @click="jump"
+        plain
+        hairline
+        round
+        class="button1"
         >快去发现感兴趣的内容</van-button
       >
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    jump() {
+      this.$router.push("/interested");
+    }
+  }
+};
+</script>
 
 <style>
 .layout {

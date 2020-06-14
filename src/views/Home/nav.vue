@@ -1,7 +1,12 @@
 <template>
   <div>
     <router-view></router-view>
-    <van-tabbar v-model="active" active-color="#d9755f" inactive-color="#000">
+    <van-tabbar
+      v-model="active"
+      active-color="#d9755f"
+      inactive-color="#000"
+      style="width:328px"
+    >
       <van-tabbar-item
         to="/home"
         icon="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E9%A6%96%E9%A1%B5.png"
@@ -18,12 +23,12 @@
         >简书钻</van-tabbar-item
       >
       <van-tabbar-item
-        to=""
-        icon="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E6%B6%88%E6%81%AF.png"
+        to="/news"
+        icon="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E6%B6%88%E6%81%AF1.png"
         >消息</van-tabbar-item
       >
       <van-tabbar-item
-        to=""
+        to="/my"
         icon="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E6%88%91%20%E7%9A%84.png"
         >我的</van-tabbar-item
       >

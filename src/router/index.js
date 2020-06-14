@@ -37,6 +37,21 @@ const routes = [
         path: "/member",
         name: "member",
         component: () => import("../views/Member/member.vue")
+      },
+      {
+        path: "/news",
+        name: "news",
+        component: () => import("../views/News/news.vue")
+      },
+      {
+        path: "/my",
+        name: "my",
+        component: () => import("../views/MY/my.vue")
+      },
+      {
+        path: "/interested",
+        name: "interested",
+        component: () => import("../views/Follow/interested.vue")
       }
     ]
   }
