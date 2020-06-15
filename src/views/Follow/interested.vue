@@ -18,26 +18,31 @@
       </div>
       <van-icon class="jump1" name="arrow" />
     </div>
-     <img src="../../assets/images/分隔线.png" />
+    <img src="../../assets/images/分隔线.png" />
     <div class="layout">
-      <img class="icon-collection" src="../../assets/images/收藏.png"/>
+      <img class="icon-collection" src="../../assets/images/收藏.png" />
       <div class="interest-word">
         <p class="interest">按兴趣找好友</p>
         <p class="interest-friend">按兴趣选择，找到志同道合的简友</p>
       </div>
       <van-icon class="jump2" name="arrow" />
-     </div>
-      <img class="line1" src="../../assets/images/分隔线.png" />
-      <div class="layout"> 
-        <img class="vx" src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%BE%AE%E4%BF%A1.png"/>
-        <p class="invitation">邀请微信好友</p>
-        <hr class="line">
-        <img class="qq" src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/qq.png"/>
-        <p class="invitation">邀请QQ好友</p>
-      </div>
+    </div>
+    <img class="line1" src="../../assets/images/分隔线.png" />
+    <div class="layout">
+      <img
+        class="vx"
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%BE%AE%E4%BF%A1.png"
+      />
+      <p class="invitation">邀请微信好友</p>
+      <hr class="line" />
+      <img
+        class="qq"
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/qq.png"
+      />
+      <p class="invitation">邀请QQ好友</p>
+    </div>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -79,67 +84,67 @@ export default {
   margin-top: 10px;
   margin-left: 10px;
 }
-.seek{
+.seek {
   font-size: 17px;
-  text-align:left;
-  font-weight:bold;
+  text-align: left;
+  font-weight: bold;
 }
-.look{
+.look {
   font-size: 13px;
   text-align: left;
   margin-top: -10px;
   color: #898989;
 }
-.jump1{
+.jump1 {
   font-size: 12px;
   margin-left: 84px;
   margin-top: 35px;
   color: #bfbfbf;
 }
-.interest{
+.interest {
   font-size: 17px;
   text-align: left;
   font-weight: bold;
 }
-.icon-collection{
+.icon-collection {
   width: 70px;
   height: 68px;
   margin-top: 10px;
   margin-left: 10px;
 }
-.interest-friend{
+.interest-friend {
   font-size: 13px;
   text-align: left;
   margin-top: -10px;
   color: #898989;
   width: 250px;
 }
-.jump2{
+.jump2 {
   font-size: 12px;
   margin-left: -23px;
   margin-top: 35px;
   color: #bfbfbf;
 }
-.line1{
+.line1 {
   height: 20px;
 }
-.vx{
+.vx {
   margin-left: 30px;
   margin-top: 30px;
   width: 30px;
   height: 30px;
 }
-.invitation{
+.invitation {
   font-size: 13px;
   margin-top: 35px;
   margin-left: 10px;
 }
-.line{
+.line {
   height: 20px;
   margin-left: 20px;
   margin-top: 32px;
 }
-.qq{
+.qq {
   margin-top: 30px;
   width: 30px;
   height: 30px;

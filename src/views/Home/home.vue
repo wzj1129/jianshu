@@ -550,10 +550,10 @@ export default {
     };
   },
   methods: {
-      search() {
+    search() {
       this.$router.push("/search");
     },
-      more() {
+    more() {
       this.$router.push("/more");
     }
   }

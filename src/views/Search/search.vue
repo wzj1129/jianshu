@@ -82,7 +82,7 @@
 
 <script>
 export default {
-   methods: {
+  methods: {
     back() {
       this.$router.push("/home");
     }
