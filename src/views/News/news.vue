@@ -14,7 +14,7 @@
     </div>
     <div class="layout">
       <p class="word-news">互动消息</p>
-      <p class="word-drill">简书钻</p>
+      <p class="word-drill" @click="detailed">简书钻</p>
       <p class="word-remind">其它提醒</p>
     </div>
     <img class="line1" src="../../assets/images/分隔线.png" />
@@ -30,6 +30,18 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    detailed() {
+      this.$router.push("/detailed");
+    }
+  }
+};
+</script>
+
+
 
 <style>
 .layout {
