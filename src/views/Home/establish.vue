@@ -5,13 +5,15 @@
       <p class="title">创建小岛</p>
     </div>
     <div>
-        <img class="pic" src="../../assets/images/创建小岛.png"/>
-        <img class="pic1" src="../../assets/images/创建小岛1.png"/>
-        <img class="pic1" src="../../assets/images/创建小岛2.png"/>
-        <img class="pic1" src="../../assets/images/创建小岛3.png"/>
+      <img class="pic" src="../../assets/images/创建小岛.png" />
+      <img class="pic1" src="../../assets/images/创建小岛1.png" />
+      <img class="pic1" src="../../assets/images/创建小岛2.png" />
+      <img class="pic1" src="../../assets/images/创建小岛3.png" />
     </div>
     <div class="card">
-        <van-button disabled class="button" round="" color="#8a8a8a">暂不符合申请条件</van-button>
+      <van-button disabled class="button" round="" color="#8a8a8a"
+        >暂不符合申请条件</van-button
+      >
     </div>
   </div>
 </template>
@@ -40,20 +42,20 @@ export default {
   margin-left: 93px;
   margin-top: 13px;
 }
-.pic{
-    width: 328px;
+.pic {
+  width: 328px;
 }
-.pic1{
-    width: 328px;
-    margin-top:-5.5px;
+.pic1 {
+  width: 328px;
+  margin-top: -5.5px;
 }
-.card{
-    background: white;
-    width: 328px;
-    height: 100px;
+.card {
+  background: white;
+  width: 328px;
+  height: 100px;
 }
-.button{
-    width: 300px;
-    font-size: 16px;
+.button {
+  width: 300px;
+  font-size: 16px;
 }
 </style>

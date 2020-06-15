@@ -2,8 +2,8 @@
   <div>
     <img class="my" src="../../assets/images/my.png" />
     <div class="layout"></div>
-    <div class="layout">
-      <P class="money">我的钱包</P>
+    <div class="layout" @click="packet">
+      <P class="money" >我的钱包</P>
       <van-icon class="jump1" name="arrow" />
     </div>
     <div class="layout">
@@ -39,6 +39,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    packet() {
+      this.$router.push("/packet");
+    }
+  }
+};
+</script>
 
 <style>
 .layout {

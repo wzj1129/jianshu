@@ -10,6 +10,7 @@
       <p class="follow-word">关注</p>
       <img
         class="icon-search"
+        @click="search"
         src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E6%90%9C%E7%B4%A2.png"
       />
     </div>
@@ -37,6 +38,9 @@ export default {
   methods: {
     jump() {
       this.$router.push("/interested");
+    },
+    search() {
+      this.$router.push("/search");
     }
   }
 };
