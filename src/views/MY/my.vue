@@ -6,7 +6,7 @@
       <P class="money">我的钱包</P>
       <van-icon class="jump1" name="arrow" />
     </div>
-    <div class="layout">
+    <div class="layout" >
       <P class="money">简书活动</P>
       <van-icon class="jump1" name="arrow" />
     </div>
@@ -28,7 +28,7 @@
         inactive-color="#ffffff"
       />
     </div>
-    <div class="layout">
+    <div class="layout" @click="setting">
       <P class="money">设置</P>
       <van-icon class="jump3" name="arrow" />
     </div>
@@ -45,6 +45,9 @@ export default {
   methods: {
     packet() {
       this.$router.push("/packet");
+    },
+     setting() {
+     this.$router.push("/setting");
     }
   }
 };
