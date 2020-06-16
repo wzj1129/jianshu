@@ -3,7 +3,7 @@
      <div class="layout">
       <van-icon class="icon-back" @click="back" name="arrow-left" />
       <p class="title">我的钱包</p>
-      <p class="question">充值问题</p>
+      <p class="question" @click="feedback">充值问题</p>
     </div>
   <div class="background">
     <div class="currency">
@@ -61,6 +61,9 @@ export default {
   methods: {
     back() {
       this.$router.push("/my");
+    },
+    feedback() {
+        this.$router.push("problem")
     }
   }
 };

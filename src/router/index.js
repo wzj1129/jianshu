@@ -72,6 +72,11 @@ const routes = [
         path: "/packet",
         name: "packet",
         component: () => import("../views/MY/packet.vue")
+      },
+      {
+        path: "/problem",
+        name: "problem",
+        component: () => import("../views/MY/problem.vue")
       }
     ]
   }
