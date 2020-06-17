@@ -22,7 +22,7 @@
       <p class="letter">简信</p>
       <p class="newletter">新简信</p>
     </div>
-    <img class="letter1" src="../../assets/images/简信1.png" />
+    <img class="letter1" @click="chat" src="../../assets/images/简信1.png" />
     <img class="letter2" src="../../assets/images/简信2.png" />
     <div class="layout card">
       <img class="smile" src="../../assets/images/笑脸.png" />
@@ -36,6 +36,9 @@ export default {
   methods: {
     detailed() {
       this.$router.push("/detailed");
+    },
+    chat() {
+      this.$router.push("/chat");
     }
   }
 };
