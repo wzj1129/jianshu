@@ -9,7 +9,7 @@
       <img class="none" src="../../assets/images/none.png"/>
   </van-tab>
   <van-tab title="专题">
-      <div class="layout">
+      <div class="layout"  @click="newspecial">
           <van-icon class="add" name="add-o" />
           <p>新建一个专题</p>
       </div>
@@ -72,6 +72,9 @@ export default {
   methods: {
     back() {
       this.$router.push("/my");
+    },
+    newspecial() {
+      this.$router.push("/newspecial");
     },
   }
 };
