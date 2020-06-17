@@ -10,7 +10,7 @@
       <P class="money">简书活动</P>
       <van-icon class="jump1" name="arrow" />
     </div>
-    <div class="layout isle">
+    <div class="layout isle" @click="special">
       <P class="money">我的小岛/专题/文集</P>
       <van-icon class="jump2" name="arrow" />
     </div>
@@ -48,6 +48,9 @@ export default {
     },
      setting() {
      this.$router.push("/setting");
+    },
+    special() {
+      this.$router.push("/special")
     }
   }
 };
