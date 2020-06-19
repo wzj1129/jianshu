@@ -479,6 +479,7 @@
                   src="../../assets/images/开通连载.png"
                 />
                 <img
+                  @click="book"
                   class="special-icon1"
                   src="../../assets/images/连载书评.png"
                 />
@@ -558,11 +559,14 @@ export default {
     more() {
       this.$router.push("/more");
     },
-    classification(){
+    classification() {
       this.$router.push("/classification");
     },
-    novel(){
-      this.$router.push("/novel")
+    novel() {
+      this.$router.push("/novel");
+    },
+    book() {
+      this.$router.push("/book");
     }
   }
 };

@@ -6,7 +6,7 @@
       <P class="money">我的钱包</P>
       <van-icon class="jump1" name="arrow" />
     </div>
-    <div class="layout" >
+    <div class="layout">
       <P class="money">简书活动</P>
       <van-icon class="jump1" name="arrow" />
     </div>
@@ -46,11 +46,11 @@ export default {
     packet() {
       this.$router.push("/packet");
     },
-     setting() {
-     this.$router.push("/setting");
+    setting() {
+      this.$router.push("/setting");
     },
     special() {
-      this.$router.push("/special")
+      this.$router.push("/special");
     }
   }
 };

@@ -106,8 +106,12 @@ const routes = [
         path: "/novel",
         name: "novel",
         component: () => import("../views/Home/novel.vue")
+      },
+      {
+        path: "/book",
+        name: "book",
+        component: () => import("../views/Home/book.vue")
       }
-      
     ]
   }
 ];
