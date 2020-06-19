@@ -32,7 +32,7 @@
       <P class="money">设置</P>
       <van-icon class="jump3" name="arrow" />
     </div>
-    <div class="layout">
+    <div class="layout" @click="help">
       <P class="money">帮助反馈</P>
       <p class="q">有问题找这里</p>
       <van-icon class="jump4" name="arrow" />
@@ -51,6 +51,9 @@ export default {
     },
     special() {
       this.$router.push("/special");
+    },
+    help(){
+      this.$router.push("/help")
     }
   }
 };
