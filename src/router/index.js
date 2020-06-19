@@ -96,7 +96,13 @@ const routes = [
         path: "/newspecial",
         name: "newspecial",
         component: () => import("../views/MY/newspecial.vue")
+      },
+      {
+        path: "/classification",
+        name: "classification",
+        component: () => import("../views/Home/classification.vue")
       }
+      
     ]
   }
 ];

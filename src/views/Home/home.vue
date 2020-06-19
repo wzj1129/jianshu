@@ -461,6 +461,7 @@
               <img class="img-xiaodao1" src="../../assets/images/小岛1.png" />
               <div class="home-text1">
                 <img
+                  @click="classification"
                   class="special-icon"
                   src="../../assets/images/全部分类.png"
                 />
@@ -555,6 +556,9 @@ export default {
     },
     more() {
       this.$router.push("/more");
+    },
+    classification(){
+      this.$router.push("/classification");
     }
   }
 };
