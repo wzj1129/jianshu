@@ -101,6 +101,11 @@ const routes = [
         path: "/classification",
         name: "classification",
         component: () => import("../views/Home/classification.vue")
+      },
+      {
+        path: "/novel",
+        name: "novel",
+        component: () => import("../views/Home/novel.vue")
       }
       
     ]

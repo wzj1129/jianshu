@@ -466,6 +466,7 @@
                   src="../../assets/images/全部分类.png"
                 />
                 <img
+                  @click="novel"
                   class="special-icon1"
                   src="../../assets/images/对话小说.png"
                 />
@@ -559,6 +560,9 @@ export default {
     },
     classification(){
       this.$router.push("/classification");
+    },
+    novel(){
+      this.$router.push("/novel")
     }
   }
 };
