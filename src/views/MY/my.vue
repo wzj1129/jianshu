@@ -14,7 +14,7 @@
       <P class="money">我的小岛/专题/文集</P>
       <van-icon class="jump2" name="arrow" />
     </div>
-    <div class="layout">
+    <div class="layout" @click="history">
       <P class="money">浏览历史</P>
       <van-icon class="jump1" name="arrow" />
     </div>
@@ -52,8 +52,11 @@ export default {
     special() {
       this.$router.push("/special");
     },
-    help(){
-      this.$router.push("/help")
+    help() {
+      this.$router.push("/help");
+    },
+    history() {
+      this.$router.push("/history");
     }
   }
 };
