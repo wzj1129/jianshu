@@ -59,7 +59,7 @@
               </div>
               <img class="icon-cha1" src="../../assets/images/叉.png" />
             </div>
-            <div class="home-text1">
+            <div class="home-text1" @click="content">
               <p>上联：孤独的人晚回家</p>
             </div>
             <div class="home-text1">
@@ -356,7 +356,7 @@
                   src="../../assets/images/热门专题.png"
                 />
                 <img
-                @click="official"
+                  @click="official"
                   class="special-icon1"
                   src="../../assets/images/官方专题.png"
                 />
@@ -569,8 +569,11 @@ export default {
     book() {
       this.$router.push("/book");
     },
-    official(){
-      this.$router.push("/official")
+    official() {
+      this.$router.push("/official");
+    },
+    content() {
+      this.$router.push("/content");
     }
   }
 };

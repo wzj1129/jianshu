@@ -29,76 +29,52 @@
         06.19
       </p>
       <div class="layout">
-          <p class="title1">我该如何发表一篇付费文章？</p>
-          <p class="time1">11:20读过</p>
-    </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        /> 
+        <p class="title1">我该如何发表一篇付费文章？</p>
+        <p class="time1">11:20读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
       <p class="time2">
         06.17
       </p>
       <div class="layout">
-          <p class="title1">如何创建并玩转属于你自己的专题</p>
-          <p class="time3">10:14读过</p>
-       </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        />
-         <p class="time2">
+        <p class="title1">如何创建并玩转属于你自己的专题</p>
+        <p class="time3">10:14读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
+      <p class="time2">
         06.19
       </p>
       <div class="layout">
-          <p class="title1">我该如何发表一篇付费文章？</p>
-          <p class="time1">11:20读过</p>
-       </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        />
-        <p class="time2">
-        06.17
-      </p>
-      <div class="layout">
-          <p class="title1">如何创建并玩转属于你自己的专题</p>
-          <p class="time3">10:14读过</p>
-       </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        />
-         <p class="time">
-        06.19
-      </p>
-      <div class="layout">
-          <p class="title1">我该如何发表一篇付费文章？</p>
-          <p class="time1">11:20读过</p>
-    </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        /> 
+        <p class="title1">我该如何发表一篇付费文章？</p>
+        <p class="time1">11:20读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
       <p class="time2">
         06.17
       </p>
       <div class="layout">
-          <p class="title1">如何创建并玩转属于你自己的专题</p>
-          <p class="time3">10:14读过</p>
-       </div>
-        <img
-            v-if="!isShow"
-            class=""
-            src="../../assets/images/分隔线.png"
-        />
+        <p class="title1">如何创建并玩转属于你自己的专题</p>
+        <p class="time3">10:14读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
+      <p class="time">
+        06.19
+      </p>
+      <div class="layout">
+        <p class="title1">我该如何发表一篇付费文章？</p>
+        <p class="time1">11:20读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
+      <p class="time2">
+        06.17
+      </p>
+      <div class="layout">
+        <p class="title1">如何创建并玩转属于你自己的专题</p>
+        <p class="time3">10:14读过</p>
+      </div>
+      <img v-if="!isShow" class="" src="../../assets/images/分隔线.png" />
     </div>
-    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -165,22 +141,22 @@ export default {
   margin-left: 20px;
   margin-top: 10px;
 }
-.title1{
-    font-size: 12px;
-    text-align: left;
-    margin-top: 0px;
-    margin-left: 20px;
+.title1 {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 20px;
 }
-.time1{
-    color: #bfbfbf;
-    font-size: 11px;
-    margin-left: 75px;
-    margin-top: 0px;
+.time1 {
+  color: #bfbfbf;
+  font-size: 11px;
+  margin-left: 75px;
+  margin-top: 0px;
 }
-.time3{
-    color: #bfbfbf;
-    font-size: 11px;
-    margin-left: 50px;
-    margin-top: 0px;
+.time3 {
+  color: #bfbfbf;
+  font-size: 11px;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 </style>

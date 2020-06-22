@@ -123,14 +123,19 @@ const routes = [
         component: () => import("../views/MY/history.vue")
       },
       {
-        path:"/official",
-        name:"official",
+        path: "/official",
+        name: "official",
         component: () => import("../views/Home/official.vue")
       },
       {
-        path:"/income",
-        name:"income",
+        path: "/income",
+        name: "income",
         component: () => import("../views/MY/income.vue")
+      },
+      {
+        path: "/content",
+        name: "content",
+        component: () => import("../views/Home/content.vue")
       }
     ]
   }

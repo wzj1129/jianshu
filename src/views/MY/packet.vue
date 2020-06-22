@@ -71,8 +71,8 @@ export default {
     feedback() {
       this.$router.push("problem");
     },
-    income(){
-      this.$router.push("/income")
+    income() {
+      this.$router.push("/income");
     }
   }
 };
