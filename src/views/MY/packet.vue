@@ -35,7 +35,7 @@
       <van-icon class="coupon-jump" name="arrow" />
     </div>
     <van-divider class="line" />
-    <div class="layout layout1">
+    <div class="layout layout1" @click="income">
       <img class="coupon" src="../../assets/images/我的收入.png" />
       <p class="coupon-name">我的收入</p>
       <van-icon class="income-jump" name="arrow" />
@@ -70,6 +70,9 @@ export default {
     },
     feedback() {
       this.$router.push("problem");
+    },
+    income(){
+      this.$router.push("/income")
     }
   }
 };
