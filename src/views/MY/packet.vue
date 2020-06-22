@@ -69,7 +69,7 @@ export default {
       this.$router.push("/my");
     },
     feedback() {
-      this.$router.push("problem");
+      this.$router.push("/problem");
     },
     income() {
       this.$router.push("/income");

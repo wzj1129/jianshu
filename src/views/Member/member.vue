@@ -91,7 +91,7 @@
           <img class="earn1" src="../../assets/images/任务中心.png" />
           <img class="earn2" src="../../assets/images/持钻奖励.png" />
           <img class="earn3" src="../../assets/images/天天抽奖.png" />
-          <img class="earn4" src="../../assets/images/排行榜.png" />
+          <img @click="list" class="earn4" src="../../assets/images/排行榜.png" />
         </div>
         <div class="layout">
           <img class="earn6" src="../../assets/images/打榜.png" />
@@ -148,7 +148,11 @@ export default {
       isShow: true
     };
   },
-  methods: {}
+  methods: {
+    list(){
+      this.$router.push("/list")
+    }
+  }
 };
 </script>
 

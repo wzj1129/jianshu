@@ -141,6 +141,11 @@ const routes = [
         path: "/choice",
         name: "choice",
         component: () => import("../views/Follow/choice.vue")
+      },
+      {
+        path: "/list",
+        name: "list",
+        component: () => import("../views/Member/list.vue")
       }
     ]
   }
