@@ -21,7 +21,7 @@
     <img src="../../assets/images/分隔线.png" />
     <div class="layout">
       <img class="icon-collection" src="../../assets/images/收藏.png" />
-      <div class="interest-word">
+      <div class="interest-word" @click="choice">
         <p class="interest">按兴趣找好友</p>
         <p class="interest-friend">按兴趣选择，找到志同道合的简友</p>
       </div>
@@ -49,6 +49,9 @@ export default {
   methods: {
     back() {
       this.$router.push("/follow");
+    },
+    choice() {
+      this.$router.push("/choice")
     }
   }
 };
