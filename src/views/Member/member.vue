@@ -91,7 +91,11 @@
           <img class="earn1" src="../../assets/images/任务中心.png" />
           <img class="earn2" src="../../assets/images/持钻奖励.png" />
           <img class="earn3" src="../../assets/images/天天抽奖.png" />
-          <img @click="list" class="earn4" src="../../assets/images/排行榜.png" />
+          <img
+            @click="list"
+            class="earn4"
+            src="../../assets/images/排行榜.png"
+          />
         </div>
         <div class="layout">
           <img class="earn6" src="../../assets/images/打榜.png" />
@@ -103,7 +107,7 @@
         <div class="layout">
           <img class="earn6" src="../../assets/images/贝市场.png" />
           <img class="earn5" src="../../assets/images/福利商城.png" />
-          <img class="earn5" src="../../assets/images/变现指南.png" />
+          <img class="earn5" @click="realization" src="../../assets/images/变现指南.png" />
         </div>
         <img class="Rotation" src="../../assets/images/简书钻轮播图.png" />
         <img class="line2" src="../../assets/images/分隔线.png" />
@@ -149,8 +153,11 @@ export default {
     };
   },
   methods: {
-    list(){
-      this.$router.push("/list")
+    list() {
+      this.$router.push("/list");
+    },
+    realization(){
+      this.$router.push("/realization");
     }
   }
 };

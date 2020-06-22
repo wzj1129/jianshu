@@ -51,7 +51,7 @@ export default {
       this.$router.push("/follow");
     },
     choice() {
-      this.$router.push("/choice")
+      this.$router.push("/choice");
     }
   }
 };

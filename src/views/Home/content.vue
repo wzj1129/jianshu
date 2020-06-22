@@ -36,74 +36,74 @@
     <div class="layout box">
       <img class="poet" src="../../assets/images/我想我是个诗人.png" />
     </div>
-      <img class="line1" src="../../assets/images/分隔线.png" />
-      <p class="title2">精彩评论 3</p>
-       <van-divider class="line" />
+    <img class="line1" src="../../assets/images/分隔线.png" />
+    <p class="title2">精彩评论 3</p>
+    <van-divider class="line" />
     <div class="layout">
-        <van-image
-          class="image"
-          round
-          src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
-        />
-        <div>
-            <p class="name">茉莉姑娘</p>
-            <p class="text1">上联：孤独的人晚回家</p>
-            <p class="text1">下联：快乐的人不回家</p>
-            <p class="text1">横批：都是夜归人</p>
-            <p class="text3">47楼 前天 21.11</p>
-        </div> 
-           <p class="comment-word">65</p>
-           <img
-                class="comment"
-                src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
-              />
-           <p class="comment-word1">57</p>
-           <van-icon class="Fabulous" name="good-job-o" />
+      <van-image
+        class="image"
+        round
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
+      />
+      <div>
+        <p class="name">茉莉姑娘</p>
+        <p class="text1">上联：孤独的人晚回家</p>
+        <p class="text1">下联：快乐的人不回家</p>
+        <p class="text1">横批：都是夜归人</p>
+        <p class="text3">47楼 前天 21.11</p>
       </div>
-       <van-divider class="line" />
+      <p class="comment-word">65</p>
+      <img
+        class="comment"
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
+      />
+      <p class="comment-word1">57</p>
+      <van-icon class="Fabulous" name="good-job-o" />
+    </div>
+    <van-divider class="line" />
     <div class="layout">
-        <van-image
-          class="image"
-          round
-          src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
-        />
-        <div>
-            <p class="name">茉莉姑娘</p>
-            <p class="text1">上联：孤独的人晚回家</p>
-            <p class="text1">下联：快乐的人不回家</p>
-            <p class="text1">横批：都是夜归人</p>
-            <p class="text3">47楼 前天 21.11</p>
-        </div> 
-           <p class="comment-word">65</p>
-           <img
-                class="comment"
-                src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
-              />
-           <p class="comment-word1">57</p>
-           <van-icon class="Fabulous" name="good-job-o" />
+      <van-image
+        class="image"
+        round
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
+      />
+      <div>
+        <p class="name">茉莉姑娘</p>
+        <p class="text1">上联：孤独的人晚回家</p>
+        <p class="text1">下联：快乐的人不回家</p>
+        <p class="text1">横批：都是夜归人</p>
+        <p class="text3">47楼 前天 21.11</p>
       </div>
-       <van-divider class="line" />
+      <p class="comment-word">65</p>
+      <img
+        class="comment"
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
+      />
+      <p class="comment-word1">57</p>
+      <van-icon class="Fabulous" name="good-job-o" />
+    </div>
+    <van-divider class="line" />
     <div class="layout">
-        <van-image
-          class="image"
-          round
-          src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
-        />
-        <div>
-            <p class="name">茉莉姑娘</p>
-            <p class="text1">上联：孤独的人晚回家</p>
-            <p class="text1">下联：快乐的人不回家</p>
-            <p class="text1">横批：都是夜归人</p>
-            <p class="text3">47楼 前天 21.11</p>
-        </div> 
-           <p class="comment-word">65</p>
-           <img
-                class="comment"
-                src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
-              />
-           <p class="comment-word1">57</p>
-           <van-icon class="Fabulous" name="good-job-o" />
+      <van-image
+        class="image"
+        round
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E5%A4%B4%E5%83%8F.png"
+      />
+      <div>
+        <p class="name">茉莉姑娘</p>
+        <p class="text1">上联：孤独的人晚回家</p>
+        <p class="text1">下联：快乐的人不回家</p>
+        <p class="text1">横批：都是夜归人</p>
+        <p class="text3">47楼 前天 21.11</p>
       </div>
+      <p class="comment-word">65</p>
+      <img
+        class="comment"
+        src="https://zhxy1-vue.oss-cn-hangzhou.aliyuncs.com/pic/%E8%AF%84%E8%AE%BA.png"
+      />
+      <p class="comment-word1">57</p>
+      <van-icon class="Fabulous" name="good-job-o" />
+    </div>
   </div>
 </template>
 
@@ -221,59 +221,59 @@ export default {
   margin-left: 10px;
   margin-top: 5px;
 }
-.title2{
-    font-size: 12px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 15px;
+.title2 {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 15px;
 }
-.image{
+.image {
   margin-left: 14px;
   margin-top: -10px;
   width: 30px;
   height: 30px;
 }
-.name{
-    margin-top: -8px;
-    margin-left: 10px;
-    font-size: 12px;
-    text-align: left;
-    font-weight: bold;
+.name {
+  margin-top: -8px;
+  margin-left: 10px;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
 }
-.text1{
-    text-align: left;
-    font-size: 12px;
-    margin-left: 8px;
-    margin-top: -10px;
+.text1 {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-top: -10px;
 }
-.text3{
-    color: #8a8a8a;
-    text-align: left;
-    font-size: 8px;
-    margin-left: 8px;
-    margin-top: 10px;
+.text3 {
+  color: #8a8a8a;
+  text-align: left;
+  font-size: 8px;
+  margin-left: 8px;
+  margin-top: 10px;
 }
-.comment{
-    width: 10px;
-    height: 10px;
-    color: #8a8a8a;
-    margin-top: 75px;
-    margin-left: 5px;
+.comment {
+  width: 10px;
+  height: 10px;
+  color: #8a8a8a;
+  margin-top: 75px;
+  margin-left: 5px;
 }
-.comment-word{
-    font-size: 8px;
-    margin-top: 75px;
-    margin-left: 60px;
-    color: #8a8a8a;
+.comment-word {
+  font-size: 8px;
+  margin-top: 75px;
+  margin-left: 60px;
+  color: #8a8a8a;
 }
-.comment-word1{
-    font-size: 8px;
-    margin-top: 75px;
-    margin-left: 10px;
-    color: #8a8a8a;
+.comment-word1 {
+  font-size: 8px;
+  margin-top: 75px;
+  margin-left: 10px;
+  color: #8a8a8a;
 }
-.Fabulous{
-    color: #8a8a8a;
-    margin-top: 70px;
+.Fabulous {
+  color: #8a8a8a;
+  margin-top: 70px;
 }
 </style>
