@@ -356,6 +356,7 @@
                   src="../../assets/images/热门专题.png"
                 />
                 <img
+                @click="official"
                   class="special-icon1"
                   src="../../assets/images/官方专题.png"
                 />
@@ -567,6 +568,9 @@ export default {
     },
     book() {
       this.$router.push("/book");
+    },
+    official(){
+      this.$router.push("/official")
     }
   }
 };
